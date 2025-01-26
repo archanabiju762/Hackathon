@@ -46,47 +46,34 @@ For Software:
 # Screenshots (Add at least 3)
 ![Screenshot1](Add screenshot 1 here with proper name)
 *Add caption explaining what this shows*
-[screenshot1](assets/images/s1)
+[screenshot1](assets/images/s1.jpg)
 
 ![Screenshot2](Add screenshot 2 here with proper name)
 *Add caption explaining what this shows*
+[screenshot2](assets/images/s2.jpg)
 
 ![Screenshot3](Add screenshot 3 here with proper name)
+[screenshot3](assets/images/s3.jpg)
+
+![Screenshot4](Add screenshot 3 here with proper name)
+[screenshot4](assets/images/s4.jpg)
+
+![Screenshot5](Add screenshot 3 here with proper name)
+[screenshot5](assets/images/s5.jpg)
+
+![Screenshot6](Add screenshot 3 here with proper name)
+[screenshot6](assets/images/s6.jpg)
+
+![Screenshot7](Add screenshot 3 here with proper name)
+[screenshot7](assets/images/s7.jpg)
 
 
-
-
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Team](Add photo of your team here)
-
-
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-[](assets/images/5.jpg)
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
 [Add your demo video link here]
 *Explain what the video demonstrates*
+[video1](assets/Recording1.mp4)
 
 # Additional Demos
 [Add any extra demo materials/links]
