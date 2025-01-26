@@ -1,0 +1,84 @@
+/* manage.css */
+
+/* General styling for the manage events table */
+.manage-events-container {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.manage-events-container h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.manage-events-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.manage-events-container table thead {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.manage-events-container table th,
+.manage-events-container table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+    vertical-align: middle;
+}
+
+.manage-events-container table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.manage-events-container table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.manage-events-container table td a,
+.manage-events-container table td button {
+    text-decoration: none;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+}
+
+.manage-events-container table td a {
+    background-color: #28a745;
+}
+
+.manage-events-container table td a:hover {
+    background-color: #218838;
+}
+
+.manage-events-container table td a.delete {
+    background-color: #dc3545;
+}
+
+.manage-events-container table td a.delete:hover {
+    background-color: #c82333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .manage-events-container table th,
+    .manage-events-container table td {
+        display: block;
+        width: 100%;
+    }
+
+    .manage-events-container table tbody tr {
+        margin-bottom: 20px;
+        display: block;
+    }
+}

@@ -1,0 +1,148 @@
+/* General Styling */
+body.register-page {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f9; /* Light background color for the register page */
+}
+
+/* Header Styling */
+header {
+    width: 100%;
+    background-color: rgb(15, 71, 90); /* Dark blue background */
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo-container .logo {
+    max-height: 60px;
+}
+
+.header-title {
+    font-size: 2rem;
+    color: white;
+    margin: 0;
+}
+
+/* Navbar Styling */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin: 20px 0 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styling for Registration Form */
+.main-content {
+    max-width: 600px;
+    margin: 80px auto 40px auto; /* Centering the registration form */
+    padding: 40px 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.main-content h1 {
+    font-size: 2rem;
+    color: rgb(15, 71, 90);
+    margin-bottom: 20px;
+}
+
+.main-content form {
+    width: 100%;
+    margin: 0;
+}
+
+/* Input Fields and Select Styling */
+.main-content form input,
+.main-content form select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+/* Button Styling */
+.main-content form button {
+    background-color: rgb(15, 71, 90);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.1rem;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.main-content form button:hover {
+    background-color: #007bff;
+    transform: translateY(-4px); /* Lift effect on hover */
+}
+
+/* Error and success messages */
+.main-content p {
+    color: red;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: rgb(15, 71, 90);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-content {
+        padding: 30px 20px;
+    }
+
+    .header-title {
+        font-size: 1.5rem;
+    }
+
+    nav ul {
+        padding: 0;
+        margin-top: 10px;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+}

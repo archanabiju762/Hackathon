@@ -1,0 +1,138 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('../assets/images/2.jpg') no-repeat center center fixed; /* Set background image */
+    background-size: cover; /* Cover the entire body */
+    color: #333;
+}
+
+h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: rgb(15, 71, 90); /* Dark blue color for headings */
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    width: 250px;
+    background-color: rgb(15, 71, 90); /* Dark blue sidebar */
+    color: white;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.sidebar h2 {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    display: block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sidebar ul li a:hover {
+    background-color: rgb(17, 173, 225); /* Light blue on hover */
+    color: white;
+}
+
+/* Main Content Styling */
+.main-content {
+    margin-left: 270px; /* Offset to account for the sidebar */
+    padding: 20px 30px;
+    background-color: rgba(255, 255, 255, 0.8); /* White background with transparency for better contrast with the background image */
+    min-height: 100vh; /* Ensure full height content area */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for content */
+    border-radius: 8px;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 40px;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    background-color: #e7f4f9; /* Light blue background for features */
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+section ul li:hover {
+    background-color: #d1ecf6; /* Slightly darker blue on hover */
+}
+
+/* Image Styling */
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rounded corners for images */
+    margin-top: 20px;
+}
+
+/* Buttons Styling */
+button, .button {
+    background-color: rgb(15, 71, 90);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover, .button:hover {
+    background-color: rgb(17, 173, 225); /* Light blue on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        box-shadow: none;
+    }
+
+    .main-content {
+        margin-left: 0;
+        padding: 15px;
+    }
+}

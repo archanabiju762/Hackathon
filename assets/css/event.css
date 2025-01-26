@@ -1,0 +1,136 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Light background for the page */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Main Content Styling */
+.main-content {
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Search Bar Styling */
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-form input {
+    padding: 10px;
+    font-size: 1rem;
+    width: 60%;
+    max-width: 400px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.search-form button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: rgb(15, 71, 90);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: rgb(17, 173, 225); /* Hover effect on the button */
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: rgb(15, 71, 90);
+    color: white;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd; /* Light hover effect on rows */
+}
+
+table td {
+    word-wrap: break-word;
+}
+
+/* No Events Found Styling */
+p {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #F44336; /* Red color for "No events found" */
+    font-weight: bold;
+}
+
+/* Footer Styling */
+footer {
+    background-color: rgb(15, 71, 90);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+    color: white;
+}
+
+/* Responsive Design for Table */
+@media (max-width: 768px) {
+    table {
+        font-size: 0.9rem;
+    }
+
+    table th, table td {
+        padding: 8px;
+    }
+
+    .search-form input {
+        width: 80%;
+    }
+
+    .search-form button {
+        padding: 8px 16px;
+    }
+}

@@ -1,0 +1,89 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Light background for the page */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Main Content Styling */
+.main-content {
+    max-width: 400px;
+    margin: 50px auto; /* Center the form */
+    background-color: #ffffff; /* White background for the form container */
+    padding: 30px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    color: rgb(15, 71, 90); /* Matching theme color for the header */
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+form button {
+    padding: 12px 20px;
+    background-color: rgb(15, 71, 90); /* Matching button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form button:hover {
+    background-color: rgb(17, 173, 225); /* Lighter blue on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+/* Message Styling */
+p {
+    font-size: 1rem;
+    margin-top: 15px;
+}
+
+p.success {
+    color: green; /* Green color for success messages */
+}
+
+p.error {
+    color: red; /* Red color for error messages */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-content {
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    form button {
+        font-size: 0.9rem;
+    }
+}
