@@ -77,7 +77,7 @@ For Hardware:
 
 ![Build](Add photos of build process here)
 *Explain the build steps*
-[image1](assets/images/5.jpg)
+(assets/images/5.jpg)
 
 ![Final](Add photo of final product here)
 *Explain the final build*
