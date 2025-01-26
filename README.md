@@ -13,6 +13,7 @@
 Life Track 360 is a platform to find the nearest camp events, such as health checkups, eye tests, and blood donation camps, updated by organizers. Users can filter events by location and type of event for easy access.
 
 ### Project Description
+Life Track 360 is a platform designed to help users find nearby camp events such as health checkups, eye tests, and blood donation camps. Event organizers can update details, and users can easily filter and search based on location and event type for better accessibility.
 
 ### The Problem statement
 Attending camps for essential services is often challenging due to the lack of a centralized platform to locate and manage events nearby.
@@ -22,23 +23,23 @@ Attending camps for essential services is often challenging due to the lack of a
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- Languages used : HTML,CSS,PHP
-- Frameworks used
-- Libraries used
-- Tools used 
+- Languages used : HTML,CSS,PHP,js,mysql
+- Tools used : VScode
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
 
 ### Implementation
 For Software:
 # Installation
 [commands]
+git clone https://github.com/Hack25/LifeTrack360.git  
+cd LifeTrack360
 
 # Run
 [commands]
+Set up XAMPP and start Apache and MySQL services.
+Import the database file (database.sql) into MySQL.
+Update database credentials in config.php.
+Open the project in a browser via http://localhost/LifeTrack360.
 
 ### Project Documentation
 For Software:
@@ -75,8 +76,6 @@ For Software:
 *Explain what the video demonstrates*
 [video1](assets/Recording1.mp4)
 
-# Additional Demos
-[Add any extra demo materials/links]
 
 ## Team Contributions
 Archana Biju: Backend implementation (PHP), database design, and API integration.
